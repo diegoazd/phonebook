@@ -1,0 +1,1340 @@
+INFO  [2014-08-09 02:16:07,543] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 02:16:07,548] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 02:16:07,548] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 02:16:07,549] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 02:16:07,565] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 02:16:07,942] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 02:16:07,956] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 02:16:07,959] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 02:16:08,060] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 02:16:08,245] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 02:16:08,246] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 02:16:08,394] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 02:16:08,472] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 02:16:08,472] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 02:16:08,786] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 02:16:08,809] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 02:40:45,323] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 02:40:45,324] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 02:40:45,325] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 02:40:45,325] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 02:40:47,379] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 02:40:47,379] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 02:40:47,432] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 02:53:48,980] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 02:53:48,986] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 02:53:48,987] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 02:53:48,989] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 02:53:49,002] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 02:53:49,324] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 02:53:49,341] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 02:53:49,344] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 02:53:49,424] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 02:53:49,621] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 02:53:49,621] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 02:53:49,733] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 02:53:49,801] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 02:53:49,801] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 02:53:50,077] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 02:53:50,102] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:01:08,405] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 13c5453c57eb9a83
+! groovy.lang.MissingPropertyException: No such property: newContactId for class: com.dwbook.phonebook.resources.ContactResource
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePogoPropertySite.getProperty(GetEffectivePogoPropertySite.java:86)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:231)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:34)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:01:51,221] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:01:51,221] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:01:51,225] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:01:51,225] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:01:53,278] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:01:53,279] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:01:53,332] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:02:11,465] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:02:11,471] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:02:11,472] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:02:11,474] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:02:11,487] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:02:11,775] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:02:11,789] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:02:11,792] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:02:11,864] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:02:12,052] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:02:12,053] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:02:12,154] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:02:12,218] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:02:12,218] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:02:12,512] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:02:12,529] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:14:39,471] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: c5ab26b1b8fe4332
+! groovy.lang.MissingPropertyException: No such property: firstName for class: org.skife.jdbi.v2.sqlobject.CloseInternalDoNotUseThisClass$$EnhancerByCGLIB$$8ceba08c
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource.updateContact(ContactResource.groovy:48)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:15:30,174] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:15:30,175] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:15:30,178] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:15:30,178] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:15:32,231] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:15:32,231] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:15:32,284] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:15:50,920] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:15:50,926] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:15:50,927] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:15:50,929] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:15:50,944] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:15:51,238] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:15:51,252] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:15:51,255] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:15:51,326] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:15:51,519] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:15:51,520] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:15:51,614] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:15:51,679] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:15:51,679] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:15:51,955] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:15:51,977] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:17:22,685] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 9f118ec6a2d01a7e
+! groovy.lang.MissingMethodException: No signature of method: org.skife.jdbi.v2.sqlobject.CloseInternalDoNotUseThisClass$$EnhancerByCGLIB$$f68328cc.deleteCotnact() is applicable for argument types: (java.lang.Class) values: [int]
+Possible solutions: deleteCotnact(int)
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:55)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.deleteContact(ContactResource.groovy:40)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:18:09,676] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:18:09,677] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:18:09,683] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:18:09,683] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:18:11,736] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:18:11,736] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:18:11,790] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:18:28,512] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:18:28,517] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:18:28,518] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:18:28,520] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:18:28,536] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:18:28,826] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:18:28,841] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:18:28,843] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:18:28,913] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:18:29,101] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:18:29,102] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:18:29,203] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:18:29,269] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:18:29,270] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:18:29,570] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:18:29,588] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:36:38,602] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:36:38,603] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:36:38,604] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:36:38,604] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:36:40,657] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:36:40,657] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:36:40,710] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:42:15,514] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:42:15,519] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:42:15,520] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:42:15,522] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:42:15,538] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:42:15,858] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:42:15,872] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:42:15,875] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:42:15,945] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:46:08,384] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:46:08,390] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:46:08,391] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:46:08,393] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:46:08,409] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:46:08,691] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:46:08,706] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:46:08,709] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:46:08,781] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:50:48,322] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:50:48,328] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:50:48,329] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:50:48,331] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:50:48,344] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:50:48,628] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:50:48,644] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:50:48,647] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:50:48,723] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:50:48,920] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:50:48,920] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:50:49,024] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:50:49,091] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:50:49,091] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:50:49,370] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:50:49,392] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:50:58,984] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 22c32c4ca62f2f1a
+! groovy.lang.MissingPropertyException: No such property: propertyPath for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:42)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:41)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+ERROR [2014-08-09 03:53:25,618] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: fff7076b1117a813
+! groovy.lang.MissingPropertyException: No such property: propertyPath for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:42)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:41)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:55:12,866] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:55:12,867] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:55:12,868] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:55:12,868] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:55:14,921] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:55:14,921] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:55:14,975] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:55:33,006] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:55:33,012] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:55:33,013] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:55:33,015] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:55:33,028] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:55:33,310] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:55:33,324] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:55:33,327] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:55:33,403] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:55:33,601] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:55:33,602] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:55:33,709] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:55:33,777] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:55:33,777] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:55:34,057] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:55:34,080] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:55:48,503] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 9b77a9b76d19192b
+! groovy.lang.MissingPropertyException: No such property: propertyPath for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:43)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:42)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:56:23,282] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:56:23,285] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:56:23,294] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:56:23,294] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:56:25,348] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:56:25,348] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:56:25,402] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:56:44,355] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:56:44,361] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:56:44,362] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:56:44,364] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:56:44,381] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:56:44,682] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:56:44,697] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:56:44,701] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:56:44,782] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:56:44,987] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:56:44,988] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:56:45,090] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:56:45,162] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:56:45,162] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:56:45,454] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:56:45,472] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:56:51,010] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 5d764f478838aa98
+! groovy.lang.MissingPropertyException: No such property: propertyPath for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:43)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:42)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:57:26,921] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:57:26,922] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:57:26,923] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:57:26,923] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:57:28,977] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:57:28,977] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:57:29,031] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:57:48,285] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:57:48,291] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:57:48,293] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:57:48,295] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:57:48,310] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:57:48,595] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:57:48,610] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:57:48,613] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:57:48,688] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:57:48,886] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:57:48,887] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:57:48,995] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:57:49,066] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:57:49,067] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:57:49,352] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:57:49,381] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:58:02,582] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 46c28a83fe35cb24
+! groovy.lang.MissingPropertyException: No such property: propertyPath for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:43)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:41)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 03:58:58,645] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 03:58:58,646] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:58:58,647] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:58:58,647] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:59:00,700] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:59:00,700] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 03:59:00,754] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 03:59:17,329] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 03:59:17,335] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 03:59:17,336] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 03:59:17,338] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 03:59:17,353] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 03:59:17,634] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 03:59:17,648] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 03:59:17,651] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 03:59:17,723] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 03:59:17,916] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 03:59:17,917] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 03:59:18,018] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 03:59:18,092] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 03:59:18,092] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 03:59:18,380] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 03:59:18,403] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 03:59:21,667] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: b492f7e6748d2165
+! groovy.lang.MissingPropertyException: No such property: propertyPath for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:43)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:41)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 04:01:47,685] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:01:47,687] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:01:47,694] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:01:47,694] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:01:49,746] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:01:49,746] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:01:49,798] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:02:10,308] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:02:10,314] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:02:10,316] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:02:10,318] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:02:10,335] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:02:10,654] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:02:10,671] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:02:10,675] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:02:10,759] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:02:10,958] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:02:10,959] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:02:11,066] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:02:11,137] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:02:11,137] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:02:11,450] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:02:11,468] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 04:02:13,967] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 244364e34ce409ba
+! groovy.lang.MissingPropertyException: No such property: dump for class: java.lang.String
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+! at org.codehaus.groovy.runtime.callsite.GetEffectivePojoPropertySite.getProperty(GetEffectivePojoPropertySite.java:63)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+! at com.dwbook.phonebook.resources.ContactResource$_createContact_closure1.doCall(ContactResource.groovy:42)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+! at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+! at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+! at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+! at groovy.lang.Closure.call(Closure.java:411)
+! at groovy.lang.Closure.call(Closure.java:427)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1326)
+! at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1298)
+! at org.codehaus.groovy.runtime.dgm$148.invoke(Unknown Source)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+! at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:41)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 04:03:45,068] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:03:45,068] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:03:45,070] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:03:45,070] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:03:47,124] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:03:47,124] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:03:47,178] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:04:05,117] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:04:05,122] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:04:05,123] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:04:05,125] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:04:05,141] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:04:05,420] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:04:05,434] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:04:05,437] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:04:05,514] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:04:05,854] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:04:05,857] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:04:06,029] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:04:06,101] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:04:06,101] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:04:06,377] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:04:06,399] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 04:04:09,559] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 9e73d2e06fd84634
+! groovy.lang.MissingMethodException: No signature of method: com.dwbook.phonebook.resources.ContactResource.Response() is applicable for argument types: () values: []
+Possible solutions: respondsTo(java.lang.String), respondsTo(java.lang.String, [Ljava.lang.Object;)
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:55)
+! at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:78)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:44)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 04:05:09,027] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:05:09,028] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:05:09,029] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:05:09,029] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:05:11,082] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:05:11,082] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:05:11,135] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:05:28,306] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:05:28,311] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:05:28,312] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:05:28,314] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:05:28,329] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:05:28,605] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:05:28,619] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:05:28,622] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:05:28,698] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:05:28,883] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:05:28,884] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:05:28,983] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:05:29,051] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:05:29,052] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:05:29,349] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:05:29,371] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2014-08-09 04:05:48,398] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 3fc1724a28ab5d3f
+! groovy.lang.MissingMethodException: No signature of method: com.dwbook.phonebook.resources.ContactResource.Response() is applicable for argument types: () values: []
+Possible solutions: respondsTo(java.lang.String), respondsTo(java.lang.String, [Ljava.lang.Object;)
+! at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:55)
+! at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:78)
+! at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+! at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+! at com.dwbook.phonebook.resources.ContactResource.createContact(ContactResource.groovy:45)
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! at java.lang.reflect.Method.invoke(Method.java:606)
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37)
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100)
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1480)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1411)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1360)
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1350)
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:275)
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+! at org.eclipse.jetty.server.Server.handle(Server.java:365)
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+! at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+! at java.lang.Thread.run(Thread.java:744)
+INFO  [2014-08-09 04:07:01,119] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:07:01,120] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:07:01,120] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:07:01,120] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:07:03,173] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:07:03,173] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:07:03,225] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:07:20,132] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:07:20,137] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:07:20,138] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:07:20,140] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:07:20,155] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:07:20,435] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:07:20,449] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:07:20,452] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:07:20,527] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:07:20,730] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:07:20,731] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:07:20,843] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:07:20,915] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:07:20,915] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:07:21,206] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:07:21,229] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:12:59,188] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:12:59,191] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:12:59,197] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:12:59,198] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:13:01,251] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:13:01,251] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:13:01,305] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:16:15,246] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:16:15,253] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:16:15,254] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:16:15,255] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:16:15,270] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:16:15,611] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:16:15,627] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:16:15,631] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:16:15,712] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:16:15,908] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:16:15,909] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:16:16,016] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:16:16,091] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:16:16,091] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:16:16,399] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:16:16,426] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:24:19,189] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:24:19,190] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:24:19,195] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:24:19,196] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:24:21,248] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:24:21,248] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:24:21,300] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:25:41,296] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:25:41,302] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:25:41,303] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:25:41,304] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:25:41,318] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:25:41,603] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:25:41,617] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:25:41,620] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:25:41,694] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:25:41,893] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:25:41,894] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:25:41,998] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:25:42,071] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:25:42,071] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:25:42,348] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:25:42,370] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:26:19,221] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:26:19,222] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:26:19,225] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:19,225] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:21,279] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:21,279] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:21,333] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+INFO  [2014-08-09 04:26:38,202] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2014-08-09 04:26:38,209] org.hibernate.Version: HHH000412: Hibernate Core {4.1.8.Final}
+INFO  [2014-08-09 04:26:38,210] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2014-08-09 04:26:38,211] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2014-08-09 04:26:38,225] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: []
+INFO  [2014-08-09 04:26:38,508] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+INFO  [2014-08-09 04:26:38,523] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2014-08-09 04:26:38,526] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2014-08-09 04:26:38,600] com.dwbook.phonebook.PhoneBookService: run methods
+INFO  [2014-08-09 04:26:38,793] com.yammer.dropwizard.cli.ServerCommand: Starting PhoneBook
+INFO  [2014-08-09 04:26:38,793] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-08-09 04:26:38,890] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+INFO  [2014-08-09 04:26:38,956] com.yammer.dropwizard.config.Environment: 
+
+    DELETE  /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    GET     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+    POST    /contact (com.dwbook.phonebook.resources.ContactResource)
+    PUT     /contact/{id} (com.dwbook.phonebook.resources.ContactResource)
+
+INFO  [2014-08-09 04:26:38,956] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-08-09 04:26:39,247] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:26:39,270] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:26:43,806] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-08-09 04:26:43,807] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-08-09 04:26:43,808] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:43,808] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:45,862] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:45,863] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-08-09 04:26:45,916] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced

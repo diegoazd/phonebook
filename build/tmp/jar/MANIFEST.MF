@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: com.dwbook.phonebook.PhoneBookService
+Built-Date: Fri Aug 08 23:26:25 CDT 2014
+Built-By: diegorlz
+Build-Jdk: 1.7.0_45
+Implementation-Title: phonebook
+Implementation-Version: 0.1
+Implementation-Vendor-Id: "com.dwbook"
+
